@@ -1,4 +1,4 @@
-class Shot:
+class Shots:
     def __init__(self):
         self.nombre = None
         self.precio = None
@@ -15,7 +15,7 @@ class Shot:
         
     @property
     def precio(self):
-        return self.__nombre
+        return self.__precio
     
     @precio.setter
     def precio(self, dato):
@@ -23,7 +23,7 @@ class Shot:
         
     @property
     def gradosalcohol(self):
-        return self.__nombre
+        return self.__gradosalcohol
     
     @gradosalcohol.setter
     def gradosalcohol(self, dato):
