@@ -1,3 +1,4 @@
+
 class Coctel:
     def __init__(self):
         self.nombre = None
@@ -7,6 +8,7 @@ class Coctel:
     @property
     def nombre(self):
         return self.__nombre
+    
     @nombre.setter
     def nombre(self, dato):
         self.__nombre = dato
@@ -14,6 +16,7 @@ class Coctel:
     @property
     def precio(self):
         return self.__precio
+    
     @precio.setter
     def precio(self, dato):
         self.__precio = dato
@@ -21,6 +24,7 @@ class Coctel:
     @property
     def cantidadAlcohol(self):
         return self.__cantidadAlcohol
+    
     @cantidadAlcohol.setter
     def cantidadAlcohol(self, dato):
         self.__cantidadAlcohol = dato
@@ -28,7 +32,7 @@ class Coctel:
     @property
     def diasHecho(self):
         return self.__diasHecho
+    
     @diasHecho.setter
     def diasHecho(self, dato):
         self.__diasHecho = dato
-    
